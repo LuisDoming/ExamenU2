@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+
+        android:layout_width="442dp"
+        android:layout_height="236dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/grupo1" />
+
+    <Button
+        android:id="@+id/btn_detalles"
+        android:layout_width="237dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:text="Detalles"
+        android:textSize="24sp"
+        android:backgroundTint="@color/Rosita"
+        />
+    <Button
+        android:id="@+id/btn_globos"
+        android:layout_width="237dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:text="Globos"
+        android:backgroundTint="@color/Rosita"
+        android:textSize="24sp"
+        />
+    <Button
+        android:id="@+id/btn_peluches"
+        android:layout_width="237dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:text="Peluches"
+        android:backgroundTint="@color/Rosita"
+        android:textSize="24sp"
+        />
+    <Button
+        android:id="@+id/btn_regalos"
+        android:layout_width="237dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:text="Regalos"
+        android:backgroundTint="@color/Rosita"
+        android:textSize="24sp"
+        />
+
+    <Button
+        android:id="@+id/btn_taza"
+        android:layout_width="237dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:text="Taza"
+        android:backgroundTint="@color/Rosita"
+        android:textSize="24sp"/>
+</LinearLayout>
